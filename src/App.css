@@ -1,0 +1,98 @@
+** {
+  padding: 0;
+  margin: 0;
+}
+.container-header {
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2rem;
+}
+.container-nav {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 4rem;
+}
+
+.container-header a {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.hero-text {
+  width: 10rem;
+  font-size: 8rem;
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 20%;
+  left: 17%;
+  color: white;
+}
+.container-hero img {
+  width: 100%;
+}
+
+.container-hero {
+  position: relative;
+}
+
+.hero-collection {
+  margin-top: 6rem;
+}
+.hero-collection h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+.card-collection {
+  width: fit-content;
+  font-size: 2rem;
+  text-align: center;
+}
+.container-hero-collection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 6rem;
+}
+
+.container-hero-2 {
+  margin-top: 10rem;
+}
+
+.container-hero-2 img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.container-card-collection-2 {
+  margin-top: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 6rem;
+}
+
+.footer {
+  background-color: rgb(104, 26, 26);
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  font-size: 2rem;
+  color: white;
+  font-weight: 600;
+  align-items: center;
+}
+
+.btn-login {
+  background-color: rgb(104, 26, 26);
+  color: white;
+  border: none;
+  padding: 0.9rem 2rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}

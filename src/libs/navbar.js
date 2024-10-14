@@ -1,0 +1,1 @@
+export const navbarList = ["Home", "Product", "Sale", "Contact"]
